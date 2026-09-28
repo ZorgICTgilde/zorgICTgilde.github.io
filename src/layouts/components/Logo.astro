@@ -29,73 +29,60 @@ const isLightSvg = lightLogo?.endsWith(".svg");
 const isDarkSvg = darkLogo?.endsWith(".svg");
 
 // Schoon de breedte en hoogte waarden op
-const cleanWidth = logo_width.toString().replace("px", "");
-const cleanHeight = logo_height.toString().replace("px", "");
+const cleanWidth = Number(logo_width.toString().replace("px", ""));
+const cleanHeight = Number(logo_height.toString().replace("px", ""));
+
+// Klassen om het licht/donker logo te wisselen
+const lightClass = `logo-img inline-block ${theme_switcher ? "dark:hidden" : ""}`;
+const darkClass = "logo-img hidden dark:inline-block";
 ---
 
-<a href="/" class="navbar-brand inline-flex items-center">
+<a
+  href="/"
+  class="navbar-brand inline-flex items-center"
+  style={`--logo-w:${cleanWidth}px;--logo-h:${cleanHeight}px`}
+>
   {
     lightLogo || darkLogo ? (
       <>
         {isLightSvg ? (
           <img
             src={lightLogo}
-            class={`inline-block ${theme_switcher && "dark:hidden"}`}
+            class={lightClass}
             alt={title}
             width={cleanWidth}
             height={cleanHeight}
-            style={{
-              height: cleanHeight + "px",
-              width: cleanWidth + "px",
-              maxHeight: "100%",
-              objectFit: "contain",
-            }}
           />
         ) : (
           <ImageMod
             src={lightLogo}
-            class={`inline-block ${theme_switcher && "dark:hidden"}`}
+            class={lightClass}
             width={cleanWidth * 2}
             height={cleanHeight * 2}
             alt={title}
-            style={{
-              height: cleanHeight + "px",
-              width: cleanWidth + "px",
-            }}
             format="webp"
           />
         )}
 
-        {theme_switcher && (
-          isDarkSvg ? (
+        {theme_switcher &&
+          (isDarkSvg ? (
             <img
               src={darkLogo}
-              class={"hidden dark:inline-block"}
+              class={darkClass}
               alt={title}
               width={cleanWidth}
               height={cleanHeight}
-              style={{
-                height: cleanHeight + "px",
-                width: cleanWidth + "px",
-                maxHeight: "100%",
-                objectFit: "contain",
-              }}
             />
           ) : (
             <ImageMod
               src={darkLogo}
-              class={"hidden dark:inline-block"}
+              class={darkClass}
               width={cleanWidth * 2}
               height={cleanHeight * 2}
               alt={title}
-              style={{
-                height: cleanHeight + "px",
-                width: cleanWidth + "px",
-              }}
               format="webp"
             />
-          )
-        )}
+          ))}
       </>
     ) : logo_text ? (
       logo_text
@@ -104,3 +91,21 @@ const cleanHeight = logo_height.toString().replace("px", "");
     )
   }
 </a>
+
+<style is:global>
+  /* Mobiel en tablet: logo op 50% van het formaat uit config.json.
+     Pas 0.5 aan voor een groter of kleiner logo op kleine schermen. */
+  .logo-img {
+    width: calc(var(--logo-w) * 0.5);
+    height: calc(var(--logo-h) * 0.5);
+    object-fit: contain;
+  }
+
+  /* Desktop (lg, 1024px en breder): volledig formaat */
+  @media (min-width: 1024px) {
+    .logo-img {
+      width: var(--logo-w);
+      height: var(--logo-h);
+    }
+  }
+</style>
