@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "Het besloten netwerk van senior experts, informatie-architecten en lead developers in de zorg"
+  content: "Het ZorgICT Gilde is een besloten, inhoudelijk gilde voor professionals die de landelijke gegevensuitwisseling in de zorg daadwerkelijk ontwerpen, bouwen en laten werken. We overbruggen de kloof tussen complexe landelijke kaders (zoals Wegiz, EHDS, FHIR, NUTS, Mitz) en de weerbarstige technische praktijk."
   image: "/images/banner.png"
   button:
     enable: true
