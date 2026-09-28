@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "ZorgICTgilde",
+    "base_url": "https://zorgictgilde.nl",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo": "/images/ZorgICTgilde-logo.svg",
+    "logo_darkmode": "/images/ZorgICTgilde-logo.svg",
+    "logo_width": "300",
+    "logo_height": "120",
+    "logo_text": "ZorgICTgilde"
   },
 
   "settings": {
@@ -24,7 +24,7 @@
 
   "announcement": {
     "enable": true,
-    "content": "<span class='text-center block'>♥️ Loving Astroplate? <a class='underline' href='https://github.com/zeon-studio/astroplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>",
+    "content": "<span class='text-center block'>♥️ Wil je een bijdragen leveren? <a class='underline' href='https://github.com/ZorgICTgilde/zorgICTgilde.github.io' target='_blank' rel='noopener'>Open hier onze Github</a></span>",
     "expire_days": 7
   },
 
@@ -36,7 +36,7 @@
   "navigation_button": {
     "enable": true,
     "label": "Github",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "link": "https://github.com/ZorgICTgilde/zorgICTgilde.github.io"
   },
 
   "google_tag_manager": {

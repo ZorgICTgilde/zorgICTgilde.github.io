@@ -23,7 +23,7 @@ const { pathname } = Astro.url;
 ---
 
 <header class={`header z-30 ${settings.sticky_header && "sticky top-0"}`}>
-  <nav class="navbar container">
+  <nav class="navbar container flex items-center justify-between flex-nowrap whitespace-nowrap lg:grid lg:grid-cols-[1fr_auto_1fr]">
     <!-- logo -->
     <div class="order-0">
       <Logo />
@@ -127,7 +127,7 @@ const { pathname } = Astro.url;
         )
       }
     </ul>
-    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0 lg:justify-self-end">
       {
         settings.search && (
           <button
