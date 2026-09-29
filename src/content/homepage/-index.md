@@ -6,46 +6,47 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Astroplate&repository=https://github.com/zeon-studio/astroplate?aff=astroplate"
+    label: "Nu ook actief op linkedin 🚀"
+    link: "https://www.linkedin.com/in/settelsm/"
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "Waarom het ZorgICT Gilde?"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "De kennis over onze historische en huidige zorginfrastructuur (zoals Aorta en het LSP) versnippert, terwijl de technische uitdagingen van nieuwe landelijke standaarden toenemen. Het gilde biedt senior experts een veilige en ruisvrije omgeving om inhoudelijk de diepte in te duiken."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Inhoudelijke casuïstiek & architectuur"
+      - "Reality Checks op landelijk beleid"
+      - "Chatham House Rule"
+      - "Positionering & Publicatie"
+      - "**Peer Netwerk van gelijken**"
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: ""
+      link: ""
 
-  - title: "Discover the Key Features Of Astro"
+  - title: "Toegang tot het ZorgICTgilde"
     image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Toegang tot het ZorgICT Gilde is voorbehouden aan ervaren zorg-ICT architecten, lead ontwikkelaars en inhoudelijke specialisten. Sales, recruitment en algemene marketing worden niet toegelaten."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Developers"
+      - "Architecten"
+      - "Product Managers"
+      - "Andere specialisten"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      label: "Word lid van het ZorgICT Gilde!!"
+      link: "https://github.com/"
 
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
+  - title: "De 5 Kernactiviteiten"
     image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "Met hart voor de zorg"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Koppel- en architectuurvraagstukken onder de motorkap ontleden (FHIR-profilering, NUTS-nodes, legacy-integratie)."
+      - "Toetsen van Nictiz-, VWS- en koepelbeleid op technische haalbaarheid, schaalbaarheid en veiligheid vanuit een onafhankelijk vakmanschap."
+      - "In alle rust sparren over falende koppelvlakken, beveiligingsrisico's en vertragingen zonder externe ruis."
+      - "Snel schakelen met de weinige vakgenoten in Nederland die aan exact dezelfde complexe vraagstukken werken."
+      - "Waar nodig als gilde (los van werkgeversbelangen) gezamenlijke standpunten of adviezen uitbrengen over onuitvoerbare richtlijnen."
     button:
       enable: false
       label: ""
