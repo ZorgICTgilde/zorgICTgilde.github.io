@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
+title: "Bouw mee aan de toekomst van Zorg ICT"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+description: "Sluit je aan bij ons open netwerk. Samen ontwikkelen we transparante en toekomstbestendige ICT-oplossingen voor de zorg. Vragen? Mail ons op info [at] zorgictgilde [dot] nl"
 button:
   enable: true
-  label: "Fork Deploy and Edit Online 🚀"
-  link: "https://app.sitepins.com/new/clone?name=Astroplate&repository=https://github.com/zeon-studio/astroplate?aff=astroplate"
+  label: "Draag bij aan het project op GitHub 🚀"
+  link: "https://github.com/ZorgICTgilde/zorgICTgilde.github.io"
 ---
