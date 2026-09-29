@@ -4,7 +4,7 @@
     "base_url": "https://zorgictgilde.nl",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "favicon": "/favicon.svg",
     "logo": "/images/ZorgICTgilde-logo.svg",
     "logo_darkmode": "/images/ZorgICTgilde-logo.svg",
     "logo_width": "300",
