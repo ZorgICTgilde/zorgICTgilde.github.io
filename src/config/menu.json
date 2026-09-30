@@ -6,7 +6,7 @@
     },
     {
       "name": "Over ons",
-      "url": "/about"
+      "url": "/over-ons"
     },
     {
       "name": "Blog",
@@ -23,11 +23,11 @@
         },
         {
           "name": "Auteurs",
-          "url": "/authors"
+          "url": "/auteurs"
         },
         {
           "name": "Categorieën",
-          "url": "/categories"
+          "url": "/categorieën"
         },
         {
           "name": "Tags",
