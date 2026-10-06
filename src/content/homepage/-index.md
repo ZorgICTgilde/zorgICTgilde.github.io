@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Nu ook actief op linkedin 🚀"
-    link: "https://www.linkedin.com/in/settelsm/"
+    link: "https://www.linkedin.com/groups/42821236"
 
 # Features
 features:
